@@ -1,0 +1,81 @@
+body {
+	position: relative;
+	margin: 0;
+	background-image: url("flores-family-cropped.jpg");
+	background-size: 100% 48vw;
+	background-repeat: no-repeat;
+}
+
+.home-page	{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background: rgba(0, 0, 0, 0.6);
+	height: 48vw;
+	width: 100%;
+	top: 0%;
+}
+
+.flores-family {
+	position: absolute;
+	font-family: 'Rajdhani';
+	color: white;
+	font-size: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -90%);
+}
+
+.content-body {
+	display: block;
+	position: relative;
+	top: 1000px;
+}
+.menu-bar {
+	position: absolute;
+	margin-top: 10px;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.menu-btn {
+	border: none;
+	background: none;
+	color: white;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: all 200ms ease;
+}
+
+.menu-btn:hover {
+	font-size: 25px;
+	color: gray;
+}
+.below-content {
+	background: black;
+}
+
+.flores-meaning {
+	margin: 0 20px 0 20px;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	font-size: 20px;
+}
+
+.below-content-div {
+	display: flex;
+	margin: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.below-content-images {
+	transition: all 300ms ease;
+}
+
+.below-content-images:hover {
+	border: solid 4px white;
+}
